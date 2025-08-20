@@ -26,15 +26,12 @@ The VGG19 class defines the complete network architecture. It is composed of fiv
 
 Training:
 
-The model, loss function (CrossEntropyLoss), and optimizer (Adam) are initialized.
+* The model, loss function (CrossEntropyLoss), and optimizer (Adam) are initialized.
 
-A training_loop function handles the training and validation process for each epoch.
+* A training_loop function handles the training and validation process for each epoch.
 
 Evaluation & Visualization:
 
-A plot_metrics function is used to visualize the loss and accuracy curves.
+* A plot_metrics function is used to visualize the loss and accuracy curves.
 
-The final model is evaluated on the test set to report its final accuracy.
-A plot_metrics function is used to visualize the loss and accuracy curves.
-
-The final model is evaluated on the test set to report its final accuracy.
+* The final model is evaluated on the test set to report its final accuracy.
